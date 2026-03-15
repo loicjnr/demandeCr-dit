@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard CAMED</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link rel='stylesheet' type='text/css' media='screen' href='assets/Dashboad.css'>
+</head>
+<body>
+
+<div class="app">
+    <div class="topbar">
+        <div class="logo">
+            <img src="c:\Users\THINKPAD 11E G5\Pictures\LOGO CAMED.jpeg.jpg" alt="Logo CAMED.SA" class="logo" />
+            
+        </div>
+        <div class="top-icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="avatar"></div>
+        </div>
+    </div>
+
+    <div class="greeting">
+        <h2>Bonjour, Tcheumeni </h2>
+        <p>Voici l'état des demandes aujourd'hui.</p>
+    </div>
+    <div class="stats">
+
+        <div class="card">
+            <div class="card-icon blue"><i class="fa-solid fa-folder"></i></div>
+            <div class="percent positive">+12%</div>
+            <h4>Total Demandes</h4>
+            <h2>1,284</h2>
+        </div>
+
+        <div class="card">
+            <div class="card-icon orange"><i class="fa-solid fa-clipboard-list"></i></div>
+            <div class="percent positive">+5%</div>
+            <h4>En Attente</h4>
+            <h2>42</h2>
+        </div>
+
+        <div class="card">
+            <div class="card-icon green"><i class="fa-solid fa-check"></i></div>
+            <div class="percent negative">-2%</div>
+            <h4>Validées</h4>
+            <h2>856</h2>
+        </div>
+
+        <div class="card">
+            <div class="card-icon red"><i class="fa-solid fa-xmark"></i></div>
+            <div class="percent positive">+1%</div>
+            <h4>Rejetées</h4>
+            <h2>124</h2>
+        </div>
+    </div>
+    <div class="chart-card">
+        <div class="chart-header">
+            <div>
+                <h3>Évolution des Crédits</h3>
+                <span>Montant total déboursé</span>
+            </div>
+            <div class="amount">
+                FCFA 45.2M
+                <span>+8.4% CE MOIS</span>
+            </div>
+        </div>
+        <div class="fake-chart"></div>
+    </div>
+    <div class="notifications">
+        <div class="notif-header">
+            <h3>Notifications Récentes</h3>
+            <span>Voir tout</span>
+        </div>
+
+        <div class="notif success">
+            <i class="fa-solid fa-check"></i>
+            <div>
+                <h4>Demande #402 validée</h4>
+                <p>Client: Moussa Traoré</p>
+                <small>IL Y A 5 MIN</small>
+            </div>
+        </div>
+        <div class="notif warning">
+            <i class="fa-solid fa-file-circle-plus"></i>
+            <div>
+                <h4>Nouvelle demande reçue</h4>
+                <p>Client: Sarah Koné</p>
+                <small>IL Y A 2H</small>
+            </div>
+        </div>
+        <div class="notif danger">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <div>
+                <h4>Demande #398 rejetée</h4>
+                <p>Score de risque élevé</p>
+                <small>HIER À 16:45</small>
+            </div>
+        </div>
+    </div>
+    <div class="floating-btn">
+        <i class="fa-solid fa-plus"></i>
+    </div>
+    <div class="bottom-nav">
+        <div class="nav-item active">
+            <i class="fa-solid fa-chart-line"></i>
+            <span>Tableau</span>
+        </div>
+        <div class="nav-item">
+            <i class="fa-solid fa-users"></i>
+            <span>Clients</span>
+        </div>
+        <div class="nav-item">
+            <i class="fa-solid fa-credit-card"></i>
+            <span>Crédits</span>
+        </div>
+        <div class="nav-item">
+            <i class="fa-solid fa-chart-column"></i>
+            <span>Rapports</span>
+        </div>
+        <div class="nav-item">
+            <i class="fa-solid fa-gear"></i>
+            <span>Paramètres</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>
